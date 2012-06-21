@@ -191,5 +191,17 @@
     STAssertNil(filter, nil);
 }
 
+- (void) testWebViewSelectorYieldsAClassFilterWithWebView{
+    SYParser *parser = [[SYParser alloc] initWithSelectorString:@"webView"];
+    
+    id<SYFilter> filter = [parser nextFilter];
+    STAssertTrue([filter isKindOfClass:[SYClassFilter class]], nil);
+    STAssertEquals([(SYClassFilter *)filter target], [UIWebView class], nil);
+    
+    filter = [parser nextFilter];
+    STAssertNil( filter, nil );
+}
+
+
 
 @end

@@ -11,6 +11,7 @@
 #import "SYPredicateFilter.h"
 #import "SYClassFilter.h"
 #import "SYNthElementFilter.h"
+#import "SYDOMFilter.h"
 
 @interface SYSectionParser : NSObject {
     NSScanner *_scanner;
@@ -209,6 +210,8 @@
         shorthandClass = [UITableView class];
     else if( [firstParam isEqualToString:@"tableViewCell"] )
         shorthandClass = [UITableViewCell class];
+    else if( [firstParam isEqualToString:@"webView"] )
+        shorthandClass = [UIWebView class];
 
     if( shorthandClass )
         return [[[SYClassFilter alloc] initWithClass:shorthandClass] autorelease];
@@ -239,7 +242,11 @@
         }else if( [firstParam isEqualToString:@"index"] ) {
             NSNumber *firstArg = [[parsedSection args] objectAtIndex:0];
             return [[[SYNthElementFilter alloc] initWithIndex:[firstArg unsignedIntValue]] autorelease];            
+        }else if( [firstParam isEqualToString:@"css"] || [firstParam isEqualToString:@"xpath"]) {
+            NSString *firstArg = [[parsedSection args] objectAtIndex:0];
+            return [[[SYDOMFilter alloc] initWithType:firstParam query:firstArg] autorelease];            
         }
+
     }
     
     NSString *selectorDesc;

@@ -8,6 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		4D77E71915188374000D0EEE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D77E71815188374000D0EEE /* QuartzCore.framework */; };
+		B12AA0AC1592DA2B00AD47CB /* SYDOMFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = B12AA0AA1592DA2B00AD47CB /* SYDOMFilter.h */; };
+		B12AA0AD1592DA2B00AD47CB /* SYDOMFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = B12AA0AB1592DA2B00AD47CB /* SYDOMFilter.m */; };
+		B12AA0AE1592DA2B00AD47CB /* SYDOMFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = B12AA0AB1592DA2B00AD47CB /* SYDOMFilter.m */; };
+		B12AA0B51592E02200AD47CB /* SYDOMFilterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B12AA0B41592E02200AD47CB /* SYDOMFilterTests.m */; };
+		B12AA0BC1592E2E200AD47CB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6CF399413D3E195000C7901 /* UIKit.framework */; };
+		B12AA0BD1592E2E200AD47CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6E8FF3513D3DC9200D24F43 /* Foundation.framework */; };
+		B12AA0BE1592E2E200AD47CB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6CF399713D3E195000C7901 /* CoreGraphics.framework */; };
+		B12AA0C41592E2E200AD47CB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B12AA0C21592E2E200AD47CB /* InfoPlist.strings */; };
+		B12AA0C61592E2E200AD47CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B12AA0C51592E2E200AD47CB /* main.m */; };
+		B12AA0CA1592E2E200AD47CB /* SYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B12AA0C91592E2E200AD47CB /* SYAppDelegate.m */; };
+		B12AA0D11592E74000AD47CB /* view.xib in Resources */ = {isa = PBXBuildFile; fileRef = B12AA0D01592E74000AD47CB /* view.xib */; };
 		D610CA6213D9F8D8008AB1F5 /* SYParentsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D610CA6113D9F8D8008AB1F5 /* SYParentsTests.m */; };
 		D610CA6513D9F9E7008AB1F5 /* SenTestCase+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = D610CA6413D9F9E7008AB1F5 /* SenTestCase+Extensions.m */; };
 		D610CA6813DA0752008AB1F5 /* SYPredicateFilterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D610CA6713DA0752008AB1F5 /* SYPredicateFilterTests.m */; };
@@ -49,8 +60,30 @@
 		D6F9822614071DB6000E5022 /* LoadableCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = D6F9822514071DB6000E5022 /* LoadableCategory.h */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		B12AA0CE1592E31700AD47CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6E8FF2913D3DC9200D24F43 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B12AA0B91592E2E200AD47CB;
+			remoteInfo = ShellyApp;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		4D77E71815188374000D0EEE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		B12AA0AA1592DA2B00AD47CB /* SYDOMFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYDOMFilter.h; sourceTree = "<group>"; };
+		B12AA0AB1592DA2B00AD47CB /* SYDOMFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYDOMFilter.m; sourceTree = "<group>"; };
+		B12AA0B31592E02200AD47CB /* SYDOMFilterTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYDOMFilterTests.h; sourceTree = "<group>"; };
+		B12AA0B41592E02200AD47CB /* SYDOMFilterTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYDOMFilterTests.m; sourceTree = "<group>"; };
+		B12AA0BA1592E2E200AD47CB /* ShellyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShellyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B12AA0C11592E2E200AD47CB /* ShellyApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ShellyApp-Info.plist"; sourceTree = "<group>"; };
+		B12AA0C31592E2E200AD47CB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B12AA0C51592E2E200AD47CB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B12AA0C71592E2E200AD47CB /* ShellyApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ShellyApp-Prefix.pch"; sourceTree = "<group>"; };
+		B12AA0C81592E2E200AD47CB /* SYAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYAppDelegate.h; sourceTree = "<group>"; };
+		B12AA0C91592E2E200AD47CB /* SYAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYAppDelegate.m; sourceTree = "<group>"; };
+		B12AA0D01592E74000AD47CB /* view.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = view.xib; sourceTree = "<group>"; };
 		D610CA6013D9F8D8008AB1F5 /* SYParentsTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYParentsTests.h; sourceTree = "<group>"; };
 		D610CA6113D9F8D8008AB1F5 /* SYParentsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYParentsTests.m; sourceTree = "<group>"; };
 		D610CA6313D9F9E7008AB1F5 /* SenTestCase+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SenTestCase+Extensions.h"; sourceTree = "<group>"; };
@@ -96,6 +129,16 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		B12AA0B71592E2E200AD47CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B12AA0BC1592E2E200AD47CB /* UIKit.framework in Frameworks */,
+				B12AA0BD1592E2E200AD47CB /* Foundation.framework in Frameworks */,
+				B12AA0BE1592E2E200AD47CB /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D6CF39A813D3E481000C7901 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -118,6 +161,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B12AA0BF1592E2E200AD47CB /* ShellyApp */ = {
+			isa = PBXGroup;
+			children = (
+				B12AA0C81592E2E200AD47CB /* SYAppDelegate.h */,
+				B12AA0C91592E2E200AD47CB /* SYAppDelegate.m */,
+				B12AA0C01592E2E200AD47CB /* Supporting Files */,
+				B12AA0D01592E74000AD47CB /* view.xib */,
+			);
+			path = ShellyApp;
+			sourceTree = "<group>";
+		};
+		B12AA0C01592E2E200AD47CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B12AA0C11592E2E200AD47CB /* ShellyApp-Info.plist */,
+				B12AA0C21592E2E200AD47CB /* InfoPlist.strings */,
+				B12AA0C51592E2E200AD47CB /* main.m */,
+				B12AA0C71592E2E200AD47CB /* ShellyApp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		D687620113D40DD30057A375 /* Filters */ = {
 			isa = PBXGroup;
 			children = (
@@ -132,6 +197,8 @@
 				D62B32E313D9D4BC000C2B81 /* SYClassFilter.m */,
 				D64BD1451406A78900CAF9E5 /* SYNthElementFilter.h */,
 				D64BD1461406A78900CAF9E5 /* SYNthElementFilter.m */,
+				B12AA0AA1592DA2B00AD47CB /* SYDOMFilter.h */,
+				B12AA0AB1592DA2B00AD47CB /* SYDOMFilter.m */,
 			);
 			name = Filters;
 			sourceTree = "<group>";
@@ -152,6 +219,8 @@
 				D610CA6413D9F9E7008AB1F5 /* SenTestCase+Extensions.m */,
 				D610CA6613DA0752008AB1F5 /* SYPredicateFilterTests.h */,
 				D610CA6713DA0752008AB1F5 /* SYPredicateFilterTests.m */,
+				B12AA0B31592E02200AD47CB /* SYDOMFilterTests.h */,
+				B12AA0B41592E02200AD47CB /* SYDOMFilterTests.m */,
 			);
 			path = "Unit Tests";
 			sourceTree = "<group>";
@@ -187,6 +256,7 @@
 			children = (
 				D6E8FF3713D3DC9200D24F43 /* Shelley */,
 				D6CF39B013D3E481000C7901 /* Unit Tests */,
+				B12AA0BF1592E2E200AD47CB /* ShellyApp */,
 				D6E8FF3413D3DC9200D24F43 /* Frameworks */,
 				D6E8FF3313D3DC9200D24F43 /* Products */,
 				D6DD26EC13D3DF9100F90588 /* Unit Tests-Info.plist */,
@@ -198,6 +268,7 @@
 			children = (
 				D6E8FF3213D3DC9200D24F43 /* libShelley.a */,
 				D6CF39AC13D3E481000C7901 /* Unit Tests.octest */,
+				B12AA0BA1592E2E200AD47CB /* ShellyApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -249,12 +320,30 @@
 				D6F9822614071DB6000E5022 /* LoadableCategory.h in Headers */,
 				D672162B146D8E9C000B0398 /* SYFrankSelectorEngine.h in Headers */,
 				D6983ED9158CD5ED006EABC6 /* SelectorEngineRegistry.h in Headers */,
+				B12AA0AC1592DA2B00AD47CB /* SYDOMFilter.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		B12AA0B91592E2E200AD47CB /* ShellyApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B12AA0CB1592E2E200AD47CB /* Build configuration list for PBXNativeTarget "ShellyApp" */;
+			buildPhases = (
+				B12AA0B61592E2E200AD47CB /* Sources */,
+				B12AA0B71592E2E200AD47CB /* Frameworks */,
+				B12AA0B81592E2E200AD47CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShellyApp;
+			productName = ShellyApp;
+			productReference = B12AA0BA1592E2E200AD47CB /* ShellyApp.app */;
+			productType = "com.apple.product-type.application";
+		};
 		D6CF39AB13D3E481000C7901 /* Unit Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D6CF39BB13D3E481000C7901 /* Build configuration list for PBXNativeTarget "Unit Tests" */;
@@ -267,6 +356,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				B12AA0CF1592E31700AD47CB /* PBXTargetDependency */,
 			);
 			name = "Unit Tests";
 			productName = "Unit Tests";
@@ -313,11 +403,21 @@
 			targets = (
 				D6E8FF3113D3DC9200D24F43 /* Shelley */,
 				D6CF39AB13D3E481000C7901 /* Unit Tests */,
+				B12AA0B91592E2E200AD47CB /* ShellyApp */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		B12AA0B81592E2E200AD47CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B12AA0C41592E2E200AD47CB /* InfoPlist.strings in Resources */,
+				B12AA0D11592E74000AD47CB /* view.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D6CF39A913D3E481000C7901 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -345,6 +445,15 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		B12AA0B61592E2E200AD47CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B12AA0C61592E2E200AD47CB /* main.m in Sources */,
+				B12AA0CA1592E2E200AD47CB /* SYAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D6CF39A713D3E481000C7901 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -363,6 +472,8 @@
 				D648FB3913E5EA7E003FBE5A /* UIViewWithAccessibilityLabel.m in Sources */,
 				D64BD1491406A78900CAF9E5 /* SYNthElementFilter.m in Sources */,
 				D6710DE71406AF7500A4A8F1 /* SYArrayFilterTemplate.m in Sources */,
+				B12AA0AE1592DA2B00AD47CB /* SYDOMFilter.m in Sources */,
+				B12AA0B51592E02200AD47CB /* SYDOMFilterTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -379,12 +490,29 @@
 				D64BD1481406A78900CAF9E5 /* SYNthElementFilter.m in Sources */,
 				D6710DE61406AF7500A4A8F1 /* SYArrayFilterTemplate.m in Sources */,
 				D672162C146D8E9C000B0398 /* SYFrankSelectorEngine.m in Sources */,
+				B12AA0AD1592DA2B00AD47CB /* SYDOMFilter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		B12AA0CF1592E31700AD47CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B12AA0B91592E2E200AD47CB /* ShellyApp */;
+			targetProxy = B12AA0CE1592E31700AD47CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
+		B12AA0C21592E2E200AD47CB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B12AA0C31592E2E200AD47CB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
 		D6CF39B313D3E481000C7901 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -396,10 +524,52 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		B12AA0CC1592E2E200AD47CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShellyApp/ShellyApp-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				INFOPLIST_FILE = "ShellyApp/ShellyApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B12AA0CD1592E2E200AD47CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShellyApp/ShellyApp-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				INFOPLIST_FILE = "ShellyApp/ShellyApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
 		D6CF39BC13D3E481000C7901 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ShellyApp.app/ShellyApp";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
@@ -413,6 +583,7 @@
 					SenTestingKit,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
 			};
 			name = Debug;
@@ -421,6 +592,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ShellyApp.app/ShellyApp";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
@@ -434,6 +606,7 @@
 					SenTestingKit,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
 			};
 			name = Release;
@@ -496,6 +669,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		B12AA0CB1592E2E200AD47CB /* Build configuration list for PBXNativeTarget "ShellyApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B12AA0CC1592E2E200AD47CB /* Debug */,
+				B12AA0CD1592E2E200AD47CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		D6CF39BB13D3E481000C7901 /* Build configuration list for PBXNativeTarget "Unit Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
