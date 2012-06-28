@@ -19,6 +19,41 @@
 		B12AA0C61592E2E200AD47CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B12AA0C51592E2E200AD47CB /* main.m */; };
 		B12AA0CA1592E2E200AD47CB /* SYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B12AA0C91592E2E200AD47CB /* SYAppDelegate.m */; };
 		B12AA0D11592E74000AD47CB /* view.xib in Resources */ = {isa = PBXBuildFile; fileRef = B12AA0D01592E74000AD47CB /* view.xib */; };
+		B13E3647159C274B00628E17 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = B13E360A159C274B00628E17 /* .gitignore */; };
+		B13E3648159C274B00628E17 /* calabash-js.iml in Resources */ = {isa = PBXBuildFile; fileRef = B13E360C159C274B00628E17 /* calabash-js.iml */; };
+		B13E3649159C274B00628E17 /* encodings.xml in Resources */ = {isa = PBXBuildFile; fileRef = B13E360D159C274B00628E17 /* encodings.xml */; };
+		B13E364A159C274B00628E17 /* misc.xml in Resources */ = {isa = PBXBuildFile; fileRef = B13E360E159C274B00628E17 /* misc.xml */; };
+		B13E364B159C274B00628E17 /* modules.xml in Resources */ = {isa = PBXBuildFile; fileRef = B13E360F159C274B00628E17 /* modules.xml */; };
+		B13E364C159C274B00628E17 /* scope_settings.xml in Resources */ = {isa = PBXBuildFile; fileRef = B13E3611159C274B00628E17 /* scope_settings.xml */; };
+		B13E364D159C274B00628E17 /* vcs.xml in Resources */ = {isa = PBXBuildFile; fileRef = B13E3612159C274B00628E17 /* vcs.xml */; };
+		B13E364E159C274B00628E17 /* build.sh in Resources */ = {isa = PBXBuildFile; fileRef = B13E3613159C274B00628E17 /* build.sh */; };
+		B13E365B159C274B00628E17 /* LPWebQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = B13E3625159C274B00628E17 /* LPWebQuery.h */; };
+		B13E365C159C274B00628E17 /* LPWebQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = B13E3626159C274B00628E17 /* LPWebQuery.m */; };
+		B13E3663159C274B00628E17 /* CDataScanner_Extensions.h in Headers */ = {isa = PBXBuildFile; fileRef = B13E3630159C274B00628E17 /* CDataScanner_Extensions.h */; };
+		B13E3664159C274B00628E17 /* CDataScanner_Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = B13E3631159C274B00628E17 /* CDataScanner_Extensions.m */; };
+		B13E3665159C274B00628E17 /* CDataScanner_Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = B13E3631159C274B00628E17 /* CDataScanner_Extensions.m */; };
+		B13E3666159C274B00628E17 /* LPCJSONDeserializer.h in Headers */ = {isa = PBXBuildFile; fileRef = B13E3632159C274B00628E17 /* LPCJSONDeserializer.h */; };
+		B13E3667159C274B00628E17 /* LPCJSONDeserializer.m in Sources */ = {isa = PBXBuildFile; fileRef = B13E3633159C274B00628E17 /* LPCJSONDeserializer.m */; };
+		B13E3668159C274B00628E17 /* LPCJSONDeserializer.m in Sources */ = {isa = PBXBuildFile; fileRef = B13E3633159C274B00628E17 /* LPCJSONDeserializer.m */; };
+		B13E3669159C274B00628E17 /* LPCJSONScanner.h in Headers */ = {isa = PBXBuildFile; fileRef = B13E3634159C274B00628E17 /* LPCJSONScanner.h */; };
+		B13E366A159C274B00628E17 /* LPCJSONScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = B13E3635159C274B00628E17 /* LPCJSONScanner.m */; };
+		B13E366B159C274B00628E17 /* LPCJSONScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = B13E3635159C274B00628E17 /* LPCJSONScanner.m */; };
+		B13E366C159C274B00628E17 /* LPCJSONSerializer.h in Headers */ = {isa = PBXBuildFile; fileRef = B13E3636159C274B00628E17 /* LPCJSONSerializer.h */; };
+		B13E366D159C274B00628E17 /* LPCJSONSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = B13E3637159C274B00628E17 /* LPCJSONSerializer.m */; };
+		B13E366E159C274B00628E17 /* LPCJSONSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = B13E3637159C274B00628E17 /* LPCJSONSerializer.m */; };
+		B13E366F159C274B00628E17 /* LPJSONRepresentation.h in Headers */ = {isa = PBXBuildFile; fileRef = B13E3638159C274B00628E17 /* LPJSONRepresentation.h */; };
+		B13E3670159C274B00628E17 /* LPCDataScanner.h in Headers */ = {isa = PBXBuildFile; fileRef = B13E3639159C274B00628E17 /* LPCDataScanner.h */; };
+		B13E3671159C274B00628E17 /* LPCDataScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = B13E363A159C274B00628E17 /* LPCDataScanner.m */; };
+		B13E3672159C274B00628E17 /* LPCDataScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = B13E363A159C274B00628E17 /* LPCDataScanner.m */; };
+		B13E3673159C274B00628E17 /* LPJSONUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = B13E363B159C274B00628E17 /* LPJSONUtils.h */; };
+		B13E3674159C274B00628E17 /* LPJSONUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = B13E363C159C274B00628E17 /* LPJSONUtils.m */; };
+		B13E3675159C274B00628E17 /* LPJSONUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = B13E363C159C274B00628E17 /* LPJSONUtils.m */; };
+		B13E3678159C274B00628E17 /* README in Resources */ = {isa = PBXBuildFile; fileRef = B13E363F159C274B00628E17 /* README */; };
+		B13E3679159C274B00628E17 /* calabash.js in Sources */ = {isa = PBXBuildFile; fileRef = B13E3641159C274B00628E17 /* calabash.js */; };
+		B13E367A159C274B00628E17 /* calabash.js in Sources */ = {isa = PBXBuildFile; fileRef = B13E3641159C274B00628E17 /* calabash.js */; };
+		B13E367B159C274B00628E17 /* set_text.js in Sources */ = {isa = PBXBuildFile; fileRef = B13E3642159C274B00628E17 /* set_text.js */; };
+		B13E367C159C274B00628E17 /* set_text.js in Sources */ = {isa = PBXBuildFile; fileRef = B13E3642159C274B00628E17 /* set_text.js */; };
+		B13E3686159C2BE900628E17 /* libShelley.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D6E8FF3213D3DC9200D24F43 /* libShelley.a */; };
 		D610CA6213D9F8D8008AB1F5 /* SYParentsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D610CA6113D9F8D8008AB1F5 /* SYParentsTests.m */; };
 		D610CA6513D9F9E7008AB1F5 /* SenTestCase+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = D610CA6413D9F9E7008AB1F5 /* SenTestCase+Extensions.m */; };
 		D610CA6813DA0752008AB1F5 /* SYPredicateFilterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D610CA6713DA0752008AB1F5 /* SYPredicateFilterTests.m */; };
@@ -68,6 +103,13 @@
 			remoteGlobalIDString = B12AA0B91592E2E200AD47CB;
 			remoteInfo = ShellyApp;
 		};
+		B13E3684159C2BE300628E17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6E8FF2913D3DC9200D24F43 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6E8FF3113D3DC9200D24F43;
+			remoteInfo = Shelley;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -84,6 +126,42 @@
 		B12AA0C81592E2E200AD47CB /* SYAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYAppDelegate.h; sourceTree = "<group>"; };
 		B12AA0C91592E2E200AD47CB /* SYAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYAppDelegate.m; sourceTree = "<group>"; };
 		B12AA0D01592E74000AD47CB /* view.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = view.xib; sourceTree = "<group>"; };
+		B13E360A159C274B00628E17 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		B13E360C159C274B00628E17 /* calabash-js.iml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "calabash-js.iml"; sourceTree = "<group>"; };
+		B13E360D159C274B00628E17 /* encodings.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = encodings.xml; sourceTree = "<group>"; };
+		B13E360E159C274B00628E17 /* misc.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = misc.xml; sourceTree = "<group>"; };
+		B13E360F159C274B00628E17 /* modules.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = modules.xml; sourceTree = "<group>"; };
+		B13E3611159C274B00628E17 /* scope_settings.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = scope_settings.xml; sourceTree = "<group>"; };
+		B13E3612159C274B00628E17 /* vcs.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = vcs.xml; sourceTree = "<group>"; };
+		B13E3613159C274B00628E17 /* build.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = build.sh; sourceTree = "<group>"; };
+		B13E3616159C274B00628E17 /* CalabashJS-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "CalabashJS-Info.plist"; sourceTree = "<group>"; };
+		B13E3617159C274B00628E17 /* CalabashJS-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CalabashJS-Prefix.pch"; sourceTree = "<group>"; };
+		B13E3619159C274B00628E17 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B13E361B159C274B00628E17 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LPViewController.xib; sourceTree = "<group>"; };
+		B13E361C159C274B00628E17 /* LPAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPAppDelegate.h; sourceTree = "<group>"; };
+		B13E361D159C274B00628E17 /* LPAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPAppDelegate.m; sourceTree = "<group>"; };
+		B13E361E159C274B00628E17 /* LPViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPViewController.h; sourceTree = "<group>"; };
+		B13E361F159C274B00628E17 /* LPViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPViewController.m; sourceTree = "<group>"; };
+		B13E3620159C274B00628E17 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B13E3625159C274B00628E17 /* LPWebQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPWebQuery.h; sourceTree = "<group>"; };
+		B13E3626159C274B00628E17 /* LPWebQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPWebQuery.m; sourceTree = "<group>"; };
+		B13E3630159C274B00628E17 /* CDataScanner_Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDataScanner_Extensions.h; sourceTree = "<group>"; };
+		B13E3631159C274B00628E17 /* CDataScanner_Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDataScanner_Extensions.m; sourceTree = "<group>"; };
+		B13E3632159C274B00628E17 /* LPCJSONDeserializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPCJSONDeserializer.h; sourceTree = "<group>"; };
+		B13E3633159C274B00628E17 /* LPCJSONDeserializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPCJSONDeserializer.m; sourceTree = "<group>"; };
+		B13E3634159C274B00628E17 /* LPCJSONScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPCJSONScanner.h; sourceTree = "<group>"; };
+		B13E3635159C274B00628E17 /* LPCJSONScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPCJSONScanner.m; sourceTree = "<group>"; };
+		B13E3636159C274B00628E17 /* LPCJSONSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPCJSONSerializer.h; sourceTree = "<group>"; };
+		B13E3637159C274B00628E17 /* LPCJSONSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPCJSONSerializer.m; sourceTree = "<group>"; };
+		B13E3638159C274B00628E17 /* LPJSONRepresentation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPJSONRepresentation.h; sourceTree = "<group>"; };
+		B13E3639159C274B00628E17 /* LPCDataScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPCDataScanner.h; sourceTree = "<group>"; };
+		B13E363A159C274B00628E17 /* LPCDataScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPCDataScanner.m; sourceTree = "<group>"; };
+		B13E363B159C274B00628E17 /* LPJSONUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPJSONUtils.h; sourceTree = "<group>"; };
+		B13E363C159C274B00628E17 /* LPJSONUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPJSONUtils.m; sourceTree = "<group>"; };
+		B13E363E159C274B00628E17 /* yuicompressor-2.4.7.jar */ = {isa = PBXFileReference; lastKnownFileType = archive.jar; path = "yuicompressor-2.4.7.jar"; sourceTree = "<group>"; };
+		B13E363F159C274B00628E17 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		B13E3641159C274B00628E17 /* calabash.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = calabash.js; sourceTree = "<group>"; };
+		B13E3642159C274B00628E17 /* set_text.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = set_text.js; sourceTree = "<group>"; };
 		D610CA6013D9F8D8008AB1F5 /* SYParentsTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYParentsTests.h; sourceTree = "<group>"; };
 		D610CA6113D9F8D8008AB1F5 /* SYParentsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYParentsTests.m; sourceTree = "<group>"; };
 		D610CA6313D9F9E7008AB1F5 /* SenTestCase+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SenTestCase+Extensions.h"; sourceTree = "<group>"; };
@@ -133,6 +211,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B13E3686159C2BE900628E17 /* libShelley.a in Frameworks */,
 				B12AA0BC1592E2E200AD47CB /* UIKit.framework in Frameworks */,
 				B12AA0BD1592E2E200AD47CB /* Foundation.framework in Frameworks */,
 				B12AA0BE1592E2E200AD47CB /* CoreGraphics.framework in Frameworks */,
@@ -181,6 +260,129 @@
 				B12AA0C71592E2E200AD47CB /* ShellyApp-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B13E3609159C274B00628E17 /* calabash-js */ = {
+			isa = PBXGroup;
+			children = (
+				B13E360A159C274B00628E17 /* .gitignore */,
+				B13E360B159C274B00628E17 /* .idea */,
+				B13E3613159C274B00628E17 /* build.sh */,
+				B13E3614159C274B00628E17 /* CalabashJS */,
+				B13E363D159C274B00628E17 /* deps */,
+				B13E363F159C274B00628E17 /* README */,
+				B13E3640159C274B00628E17 /* src */,
+			);
+			path = "calabash-js";
+			sourceTree = "<group>";
+		};
+		B13E360B159C274B00628E17 /* .idea */ = {
+			isa = PBXGroup;
+			children = (
+				B13E360C159C274B00628E17 /* calabash-js.iml */,
+				B13E360D159C274B00628E17 /* encodings.xml */,
+				B13E360E159C274B00628E17 /* misc.xml */,
+				B13E360F159C274B00628E17 /* modules.xml */,
+				B13E3610159C274B00628E17 /* scopes */,
+				B13E3612159C274B00628E17 /* vcs.xml */,
+			);
+			path = .idea;
+			sourceTree = "<group>";
+		};
+		B13E3610159C274B00628E17 /* scopes */ = {
+			isa = PBXGroup;
+			children = (
+				B13E3611159C274B00628E17 /* scope_settings.xml */,
+			);
+			path = scopes;
+			sourceTree = "<group>";
+		};
+		B13E3614159C274B00628E17 /* CalabashJS */ = {
+			isa = PBXGroup;
+			children = (
+				B13E3615159C274B00628E17 /* CalabashJS */,
+				B13E3624159C274B00628E17 /* CalabashJSLib */,
+				B13E362D159C274B00628E17 /* External */,
+			);
+			path = CalabashJS;
+			sourceTree = "<group>";
+		};
+		B13E3615159C274B00628E17 /* CalabashJS */ = {
+			isa = PBXGroup;
+			children = (
+				B13E3616159C274B00628E17 /* CalabashJS-Info.plist */,
+				B13E3617159C274B00628E17 /* CalabashJS-Prefix.pch */,
+				B13E3618159C274B00628E17 /* InfoPlist.strings */,
+				B13E361A159C274B00628E17 /* LPViewController.xib */,
+				B13E361C159C274B00628E17 /* LPAppDelegate.h */,
+				B13E361D159C274B00628E17 /* LPAppDelegate.m */,
+				B13E361E159C274B00628E17 /* LPViewController.h */,
+				B13E361F159C274B00628E17 /* LPViewController.m */,
+				B13E3620159C274B00628E17 /* main.m */,
+			);
+			path = CalabashJS;
+			sourceTree = "<group>";
+		};
+		B13E3624159C274B00628E17 /* CalabashJSLib */ = {
+			isa = PBXGroup;
+			children = (
+				B13E3625159C274B00628E17 /* LPWebQuery.h */,
+				B13E3626159C274B00628E17 /* LPWebQuery.m */,
+			);
+			path = CalabashJSLib;
+			sourceTree = "<group>";
+		};
+		B13E362D159C274B00628E17 /* External */ = {
+			isa = PBXGroup;
+			children = (
+				B13E362E159C274B00628E17 /* JSON */,
+			);
+			path = External;
+			sourceTree = "<group>";
+		};
+		B13E362E159C274B00628E17 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				B13E362F159C274B00628E17 /* JSON */,
+				B13E3639159C274B00628E17 /* LPCDataScanner.h */,
+				B13E363A159C274B00628E17 /* LPCDataScanner.m */,
+				B13E363B159C274B00628E17 /* LPJSONUtils.h */,
+				B13E363C159C274B00628E17 /* LPJSONUtils.m */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		B13E362F159C274B00628E17 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				B13E3630159C274B00628E17 /* CDataScanner_Extensions.h */,
+				B13E3631159C274B00628E17 /* CDataScanner_Extensions.m */,
+				B13E3632159C274B00628E17 /* LPCJSONDeserializer.h */,
+				B13E3633159C274B00628E17 /* LPCJSONDeserializer.m */,
+				B13E3634159C274B00628E17 /* LPCJSONScanner.h */,
+				B13E3635159C274B00628E17 /* LPCJSONScanner.m */,
+				B13E3636159C274B00628E17 /* LPCJSONSerializer.h */,
+				B13E3637159C274B00628E17 /* LPCJSONSerializer.m */,
+				B13E3638159C274B00628E17 /* LPJSONRepresentation.h */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		B13E363D159C274B00628E17 /* deps */ = {
+			isa = PBXGroup;
+			children = (
+				B13E363E159C274B00628E17 /* yuicompressor-2.4.7.jar */,
+			);
+			path = deps;
+			sourceTree = "<group>";
+		};
+		B13E3640159C274B00628E17 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				B13E3641159C274B00628E17 /* calabash.js */,
+				B13E3642159C274B00628E17 /* set_text.js */,
+			);
+			path = src;
 			sourceTree = "<group>";
 		};
 		D687620113D40DD30057A375 /* Filters */ = {
@@ -254,6 +456,7 @@
 		D6E8FF2713D3DC9200D24F43 = {
 			isa = PBXGroup;
 			children = (
+				B13E3609159C274B00628E17 /* calabash-js */,
 				D6E8FF3713D3DC9200D24F43 /* Shelley */,
 				D6CF39B013D3E481000C7901 /* Unit Tests */,
 				B12AA0BF1592E2E200AD47CB /* ShellyApp */,
@@ -321,6 +524,14 @@
 				D672162B146D8E9C000B0398 /* SYFrankSelectorEngine.h in Headers */,
 				D6983ED9158CD5ED006EABC6 /* SelectorEngineRegistry.h in Headers */,
 				B12AA0AC1592DA2B00AD47CB /* SYDOMFilter.h in Headers */,
+				B13E365B159C274B00628E17 /* LPWebQuery.h in Headers */,
+				B13E3663159C274B00628E17 /* CDataScanner_Extensions.h in Headers */,
+				B13E3666159C274B00628E17 /* LPCJSONDeserializer.h in Headers */,
+				B13E3669159C274B00628E17 /* LPCJSONScanner.h in Headers */,
+				B13E366C159C274B00628E17 /* LPCJSONSerializer.h in Headers */,
+				B13E366F159C274B00628E17 /* LPJSONRepresentation.h in Headers */,
+				B13E3670159C274B00628E17 /* LPCDataScanner.h in Headers */,
+				B13E3673159C274B00628E17 /* LPJSONUtils.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,6 +549,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				B13E3685159C2BE300628E17 /* PBXTargetDependency */,
 			);
 			name = ShellyApp;
 			productName = ShellyApp;
@@ -415,6 +627,15 @@
 			files = (
 				B12AA0C41592E2E200AD47CB /* InfoPlist.strings in Resources */,
 				B12AA0D11592E74000AD47CB /* view.xib in Resources */,
+				B13E3647159C274B00628E17 /* .gitignore in Resources */,
+				B13E3648159C274B00628E17 /* calabash-js.iml in Resources */,
+				B13E3649159C274B00628E17 /* encodings.xml in Resources */,
+				B13E364A159C274B00628E17 /* misc.xml in Resources */,
+				B13E364B159C274B00628E17 /* modules.xml in Resources */,
+				B13E364C159C274B00628E17 /* scope_settings.xml in Resources */,
+				B13E364D159C274B00628E17 /* vcs.xml in Resources */,
+				B13E364E159C274B00628E17 /* build.sh in Resources */,
+				B13E3678159C274B00628E17 /* README in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -451,6 +672,14 @@
 			files = (
 				B12AA0C61592E2E200AD47CB /* main.m in Sources */,
 				B12AA0CA1592E2E200AD47CB /* SYAppDelegate.m in Sources */,
+				B13E3665159C274B00628E17 /* CDataScanner_Extensions.m in Sources */,
+				B13E3668159C274B00628E17 /* LPCJSONDeserializer.m in Sources */,
+				B13E366B159C274B00628E17 /* LPCJSONScanner.m in Sources */,
+				B13E366E159C274B00628E17 /* LPCJSONSerializer.m in Sources */,
+				B13E3672159C274B00628E17 /* LPCDataScanner.m in Sources */,
+				B13E3675159C274B00628E17 /* LPJSONUtils.m in Sources */,
+				B13E367A159C274B00628E17 /* calabash.js in Sources */,
+				B13E367C159C274B00628E17 /* set_text.js in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -491,6 +720,15 @@
 				D6710DE61406AF7500A4A8F1 /* SYArrayFilterTemplate.m in Sources */,
 				D672162C146D8E9C000B0398 /* SYFrankSelectorEngine.m in Sources */,
 				B12AA0AD1592DA2B00AD47CB /* SYDOMFilter.m in Sources */,
+				B13E365C159C274B00628E17 /* LPWebQuery.m in Sources */,
+				B13E3664159C274B00628E17 /* CDataScanner_Extensions.m in Sources */,
+				B13E3667159C274B00628E17 /* LPCJSONDeserializer.m in Sources */,
+				B13E366A159C274B00628E17 /* LPCJSONScanner.m in Sources */,
+				B13E366D159C274B00628E17 /* LPCJSONSerializer.m in Sources */,
+				B13E3671159C274B00628E17 /* LPCDataScanner.m in Sources */,
+				B13E3674159C274B00628E17 /* LPJSONUtils.m in Sources */,
+				B13E3679159C274B00628E17 /* calabash.js in Sources */,
+				B13E367B159C274B00628E17 /* set_text.js in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -502,6 +740,11 @@
 			target = B12AA0B91592E2E200AD47CB /* ShellyApp */;
 			targetProxy = B12AA0CE1592E31700AD47CB /* PBXContainerItemProxy */;
 		};
+		B13E3685159C2BE300628E17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6E8FF3113D3DC9200D24F43 /* Shelley */;
+			targetProxy = B13E3684159C2BE300628E17 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
@@ -511,6 +754,22 @@
 				B12AA0C31592E2E200AD47CB /* en */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B13E3618159C274B00628E17 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B13E3619159C274B00628E17 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B13E361A159C274B00628E17 /* LPViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B13E361B159C274B00628E17 /* en */,
+			);
+			name = LPViewController.xib;
 			sourceTree = "<group>";
 		};
 		D6CF39B313D3E481000C7901 /* InfoPlist.strings */ = {
@@ -676,6 +935,7 @@
 				B12AA0CD1592E2E200AD47CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D6CF39BB13D3E481000C7901 /* Build configuration list for PBXNativeTarget "Unit Tests" */ = {
 			isa = XCConfigurationList;

@@ -7,6 +7,8 @@
 //
 
 #import "SYAppDelegate.h"
+#import "Shelley.h"
+
 
 @implementation SYAppDelegate
 
@@ -23,9 +25,59 @@
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
     UIViewController *vc = [[[UIViewController alloc]initWithNibName:@"view" bundle:nil] autorelease];
+    
+    
     self.window.rootViewController = vc;
     [self.window makeKeyAndVisible];
+    
+    UIWebView *webView = (UIWebView*)[vc.view viewWithTag:1];
+    [self performSelector:@selector(performQueriesOnWebView:) withObject:vc.view afterDelay:5];
+
+    [webView loadHTMLString:@"<html><head><title>Google</title></head>\
+     <style>.menu {position: absolute; left:0;top:0} .menu ul {position: absolute; left:50px; top:100px}\
+     a {position:absolute; left:100px}\
+     </style>\
+     <body><h1>Google header</h1>\
+     <div class='menu'><span class='heading'>Heading</span></div>\
+     A\
+     <ul>\
+     <li>one\
+     <li>two\
+     <li>one\
+     <li>two\
+     <li>one\
+     <li>two\
+     <li>one\
+     <li>two\
+     <li>one\
+     <li>two\
+     <li>one\
+     <li>two\
+     <li>one\
+     <li>two\
+     <li>one\
+     <li>two\
+     <li>one\
+     <li>two\
+     <li>one\
+     <li style='display:none'>ten\
+     <li><a href='http://www.googl.com'>link</a>\
+     <li>Googles phase\
+     </ul></body>" 
+     
+                 baseURL:[NSURL URLWithString:@"http://localhost:8080"]];
+
     return YES;
+}
+
+-(void)performQueriesOnWebView:(UIView*)view
+{
+    
+    Shelley *sh = [[Shelley alloc] initWithSelectorString:@"webView css:'a'"];
+    NSArray *arr = [sh selectFrom:view];
+    
+    NSLog(@"%@",arr);
+    
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application

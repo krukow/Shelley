@@ -7,10 +7,11 @@
 //
 
 #import "SYArrayFilterTemplate.h"
+#import "LPWebQuery.h"
 
 @interface SYDOMFilter : SYArrayFilterTemplate
 
-@property (strong,readonly) NSString *type;
+@property (assign,readonly) LPWebQueryType type;
 @property (strong,readonly) NSString *query;
 
 

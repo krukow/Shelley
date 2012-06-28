@@ -242,7 +242,7 @@
         }else if( [firstParam isEqualToString:@"index"] ) {
             NSNumber *firstArg = [[parsedSection args] objectAtIndex:0];
             return [[[SYNthElementFilter alloc] initWithIndex:[firstArg unsignedIntValue]] autorelease];            
-        }else if( [firstParam isEqualToString:@"css"] || [firstParam isEqualToString:@"xpath"]) {
+        }else if( [firstParam isEqualToString:@"css"] || [firstParam isEqualToString:@"xpath"] || [firstParam isEqualToString:@"webtext"]) {
             NSString *firstArg = [[parsedSection args] objectAtIndex:0];
             return [[[SYDOMFilter alloc] initWithType:firstParam query:firstArg] autorelease];            
         }
